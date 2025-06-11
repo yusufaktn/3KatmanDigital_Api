@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\3KatmanDigital_API.props" />
+</Project>

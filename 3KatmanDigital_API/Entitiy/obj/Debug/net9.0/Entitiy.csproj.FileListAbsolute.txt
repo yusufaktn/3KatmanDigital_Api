@@ -1,0 +1,14 @@
+D:\3katman_digital_mvc_project\3KatmanDigital_API\Entitiy\bin\Debug\net9.0\Entitiy.deps.json
+D:\3katman_digital_mvc_project\3KatmanDigital_API\Entitiy\bin\Debug\net9.0\Entitiy.runtimeconfig.json
+D:\3katman_digital_mvc_project\3KatmanDigital_API\Entitiy\bin\Debug\net9.0\Entitiy.dll
+D:\3katman_digital_mvc_project\3KatmanDigital_API\Entitiy\bin\Debug\net9.0\Entitiy.pdb
+D:\3katman_digital_mvc_project\3KatmanDigital_API\Entitiy\obj\Debug\net9.0\Entitiy.csproj.AssemblyReference.cache
+D:\3katman_digital_mvc_project\3KatmanDigital_API\Entitiy\obj\Debug\net9.0\Entitiy.GeneratedMSBuildEditorConfig.editorconfig
+D:\3katman_digital_mvc_project\3KatmanDigital_API\Entitiy\obj\Debug\net9.0\Entitiy.AssemblyInfoInputs.cache
+D:\3katman_digital_mvc_project\3KatmanDigital_API\Entitiy\obj\Debug\net9.0\Entitiy.AssemblyInfo.cs
+D:\3katman_digital_mvc_project\3KatmanDigital_API\Entitiy\obj\Debug\net9.0\Entitiy.csproj.CoreCompileInputs.cache
+D:\3katman_digital_mvc_project\3KatmanDigital_API\Entitiy\obj\Debug\net9.0\Entitiy.dll
+D:\3katman_digital_mvc_project\3KatmanDigital_API\Entitiy\obj\Debug\net9.0\refint\Entitiy.dll
+D:\3katman_digital_mvc_project\3KatmanDigital_API\Entitiy\obj\Debug\net9.0\Entitiy.pdb
+D:\3katman_digital_mvc_project\3KatmanDigital_API\Entitiy\obj\Debug\net9.0\Entitiy.genruntimeconfig.cache
+D:\3katman_digital_mvc_project\3KatmanDigital_API\Entitiy\obj\Debug\net9.0\ref\Entitiy.dll

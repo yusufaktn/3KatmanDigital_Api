@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pw6WmdYRkuI=",
+  "dgSpecHash": "gQJHqSAZCPY=",
   "success": true,
-  "projectFilePath": "D:\\3katman_digital_mvc_project\\3KatmanDigital_API\\3KatmanDigital_API\\3KatmanDigital_API.csproj",
+  "projectFilePath": "C:\\Users\\myusu\\OneDrive\\Belgeler\\GitHub\\3KatmanDigital_Api\\3KatmanDigital_API\\3KatmanDigital_API\\3KatmanDigital_API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\myusu\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\myusu\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

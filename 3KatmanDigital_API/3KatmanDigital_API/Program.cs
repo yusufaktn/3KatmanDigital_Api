@@ -48,12 +48,14 @@ namespace _3KatmanDigital_API
             builder.Services.AddScoped<IProjectService, ProjectService>();
             builder.Services.AddScoped<IProjectRequestService, ProjectRequestService>();
             builder.Services.AddScoped<IService_Service, Service_service>();
+            
 
 
             builder.Services.AddScoped<ICategoryRepo, CategoryRepo>();
             builder.Services.AddScoped<IProjectRepo, ProjectRepo>();
             builder.Services.AddScoped<IProjectRequestRepo, ProjectRequestRepo>();
             builder.Services.AddScoped<IServiceRepo, ServiceRepo>();
+            builder.Services.AddScoped<IProjectImageRepo, ProjectImageRepo>();
 
 
 

@@ -11,7 +11,7 @@ namespace Entitiy.Models
         [JsonIgnore]
         public Category Category { get; set; }
 
-        [JsonIgnore]
+        
         public ICollection<ProjectImages> Images { get; set; }
 
     }

@@ -1,15 +1,17 @@
-﻿using Entitiy.Models;
+﻿using _3KatmanDigital_API.DTO.Project;
+using Entitiy.Models;
+using Microsoft.AspNetCore.Http;
 
 namespace _3KatmanDigital_API.Services.Interface
 {
     public interface IProjectService
     {
-        Task<List<Project>> GetAllProjectsAsync();
-        Task<Project> GetProjectByIdAsync(Guid id);
-        Task<Project> AddProjectAsync(Project project);
-        Task<Project> UpdateProjectAsync(Project project);
+        Task<List<ProjectDto>> GetAllProjectsAsync();
+        Task<ProjectDto> GetProjectByIdAsync(Guid id);
+        Task<ProjectDto> AddProjectAsync(CreateProjectDto project );
+        Task<ProjectDto> UpdateProjectAsync(UpdateProjectDto project);
         Task<bool> DeleteProjectAsync(Guid id);
-        Task<List<Project>> GetProjectsByCategoryIdAsync(Guid categoryId);
+        Task<List<ProjectDto>> GetProjectsByCategoryIdAsync(Guid categoryId);
         
         
     }

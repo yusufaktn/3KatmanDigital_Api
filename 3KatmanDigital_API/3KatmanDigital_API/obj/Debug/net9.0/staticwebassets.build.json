@@ -1,12 +1,640 @@
 {
   "Version": 1,
-  "Hash": "DIhY6/vWDI52OdSzNh8qRst7D1LrofNxQ4KlZUz2AJg=",
+  "Hash": "l+lIG4C6ENpEBe2/VTxVi8EYjG3UTfeN2TrYWGZn1Lc=",
   "Source": "3KatmanDigital_API",
   "BasePath": "_content/3KatmanDigital_API",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "3KatmanDigital_API\\wwwroot",
+      "Source": "3KatmanDigital_API",
+      "ContentRoot": "C:\\Users\\myusu\\OneDrive\\Belgeler\\GitHub\\3KatmanDigital_Api\\3KatmanDigital_API\\3KatmanDigital_API\\wwwroot\\",
+      "BasePath": "_content/3KatmanDigital_API",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\myusu\\OneDrive\\Belgeler\\GitHub\\3KatmanDigital_Api\\3KatmanDigital_API\\3KatmanDigital_API\\wwwroot\\images\\projects\\1889f9d9-1974-42d0-b860-5cc2f6f4c687\\156f48c9-981a-4ffd-b245-2773866611f2.jpeg",
+      "SourceId": "3KatmanDigital_API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\myusu\\OneDrive\\Belgeler\\GitHub\\3KatmanDigital_Api\\3KatmanDigital_API\\3KatmanDigital_API\\wwwroot\\",
+      "BasePath": "_content/3KatmanDigital_API",
+      "RelativePath": "images/projects/1889f9d9-1974-42d0-b860-5cc2f6f4c687/156f48c9-981a-4ffd-b245-2773866611f2#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "it1tvcbp74",
+      "Integrity": "ds1PobaNvI9GCuXgRwuQCfNsYQ7/NSuKplIF6oSfy58=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\projects\\1889f9d9-1974-42d0-b860-5cc2f6f4c687\\156f48c9-981a-4ffd-b245-2773866611f2.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\myusu\\OneDrive\\Belgeler\\GitHub\\3KatmanDigital_Api\\3KatmanDigital_API\\3KatmanDigital_API\\wwwroot\\images\\projects\\3147ca31-a041-4f72-97d5-c9bce8eabc48\\300cca4c-0703-47e5-a26d-7f51613e5c4e.jpeg",
+      "SourceId": "3KatmanDigital_API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\myusu\\OneDrive\\Belgeler\\GitHub\\3KatmanDigital_Api\\3KatmanDigital_API\\3KatmanDigital_API\\wwwroot\\",
+      "BasePath": "_content/3KatmanDigital_API",
+      "RelativePath": "images/projects/3147ca31-a041-4f72-97d5-c9bce8eabc48/300cca4c-0703-47e5-a26d-7f51613e5c4e#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mhtr5vhju3",
+      "Integrity": "Cp9mO4ZnxDIEJYfVfeguvnx2zm+QODG3XIl9lyrkeW8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\projects\\3147ca31-a041-4f72-97d5-c9bce8eabc48\\300cca4c-0703-47e5-a26d-7f51613e5c4e.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\myusu\\OneDrive\\Belgeler\\GitHub\\3KatmanDigital_Api\\3KatmanDigital_API\\3KatmanDigital_API\\wwwroot\\images\\projects\\4e8e5d7d-7713-469f-9b21-10220a3fdbb8\\36628eba-ff07-4b16-b9cd-2738777bdc39.jpeg",
+      "SourceId": "3KatmanDigital_API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\myusu\\OneDrive\\Belgeler\\GitHub\\3KatmanDigital_Api\\3KatmanDigital_API\\3KatmanDigital_API\\wwwroot\\",
+      "BasePath": "_content/3KatmanDigital_API",
+      "RelativePath": "images/projects/4e8e5d7d-7713-469f-9b21-10220a3fdbb8/36628eba-ff07-4b16-b9cd-2738777bdc39#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "it1tvcbp74",
+      "Integrity": "ds1PobaNvI9GCuXgRwuQCfNsYQ7/NSuKplIF6oSfy58=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\projects\\4e8e5d7d-7713-469f-9b21-10220a3fdbb8\\36628eba-ff07-4b16-b9cd-2738777bdc39.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\myusu\\OneDrive\\Belgeler\\GitHub\\3KatmanDigital_Api\\3KatmanDigital_API\\3KatmanDigital_API\\wwwroot\\images\\projects\\4e8e5d7d-7713-469f-9b21-10220a3fdbb8\\bd3036e5-ba64-4aba-ba60-5f40685e9c93.jpeg",
+      "SourceId": "3KatmanDigital_API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\myusu\\OneDrive\\Belgeler\\GitHub\\3KatmanDigital_Api\\3KatmanDigital_API\\3KatmanDigital_API\\wwwroot\\",
+      "BasePath": "_content/3KatmanDigital_API",
+      "RelativePath": "images/projects/4e8e5d7d-7713-469f-9b21-10220a3fdbb8/bd3036e5-ba64-4aba-ba60-5f40685e9c93#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mhtr5vhju3",
+      "Integrity": "Cp9mO4ZnxDIEJYfVfeguvnx2zm+QODG3XIl9lyrkeW8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\projects\\4e8e5d7d-7713-469f-9b21-10220a3fdbb8\\bd3036e5-ba64-4aba-ba60-5f40685e9c93.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\myusu\\OneDrive\\Belgeler\\GitHub\\3KatmanDigital_Api\\3KatmanDigital_API\\3KatmanDigital_API\\wwwroot\\images\\projects\\4e8e5d7d-7713-469f-9b21-10220a3fdbb8\\f7a984fd-47aa-4b92-8ccd-d77acf9fbf01.png",
+      "SourceId": "3KatmanDigital_API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\myusu\\OneDrive\\Belgeler\\GitHub\\3KatmanDigital_Api\\3KatmanDigital_API\\3KatmanDigital_API\\wwwroot\\",
+      "BasePath": "_content/3KatmanDigital_API",
+      "RelativePath": "images/projects/4e8e5d7d-7713-469f-9b21-10220a3fdbb8/f7a984fd-47aa-4b92-8ccd-d77acf9fbf01#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "62owp4ratr",
+      "Integrity": "MkX/oP9Dms2pH/CrQ3h9zgDzZVAlbOzQrkC2P66/cN8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\projects\\4e8e5d7d-7713-469f-9b21-10220a3fdbb8\\f7a984fd-47aa-4b92-8ccd-d77acf9fbf01.png"
+    },
+    {
+      "Identity": "C:\\Users\\myusu\\OneDrive\\Belgeler\\GitHub\\3KatmanDigital_Api\\3KatmanDigital_API\\3KatmanDigital_API\\wwwroot\\uploads\\b85bf36c-6287-4ee5-aded-ddb0e99fa142_Nova.png",
+      "SourceId": "3KatmanDigital_API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\myusu\\OneDrive\\Belgeler\\GitHub\\3KatmanDigital_Api\\3KatmanDigital_API\\3KatmanDigital_API\\wwwroot\\",
+      "BasePath": "_content/3KatmanDigital_API",
+      "RelativePath": "uploads/b85bf36c-6287-4ee5-aded-ddb0e99fa142_Nova#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mf95kix2kv",
+      "Integrity": "/pQegii8VHXj33EW+Umc2pajYatm3pfrL/02X6l5u1k=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\b85bf36c-6287-4ee5-aded-ddb0e99fa142_Nova.png"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "images/projects/1889f9d9-1974-42d0-b860-5cc2f6f4c687/156f48c9-981a-4ffd-b245-2773866611f2.it1tvcbp74.jpeg",
+      "AssetFile": "C:\\Users\\myusu\\OneDrive\\Belgeler\\GitHub\\3KatmanDigital_Api\\3KatmanDigital_API\\3KatmanDigital_API\\wwwroot\\images\\projects\\1889f9d9-1974-42d0-b860-5cc2f6f4c687\\156f48c9-981a-4ffd-b245-2773866611f2.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8956"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ds1PobaNvI9GCuXgRwuQCfNsYQ7/NSuKplIF6oSfy58=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 13 Jun 2025 13:28:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "it1tvcbp74"
+        },
+        {
+          "Name": "label",
+          "Value": "images/projects/1889f9d9-1974-42d0-b860-5cc2f6f4c687/156f48c9-981a-4ffd-b245-2773866611f2.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ds1PobaNvI9GCuXgRwuQCfNsYQ7/NSuKplIF6oSfy58="
+        }
+      ]
+    },
+    {
+      "Route": "images/projects/1889f9d9-1974-42d0-b860-5cc2f6f4c687/156f48c9-981a-4ffd-b245-2773866611f2.jpeg",
+      "AssetFile": "C:\\Users\\myusu\\OneDrive\\Belgeler\\GitHub\\3KatmanDigital_Api\\3KatmanDigital_API\\3KatmanDigital_API\\wwwroot\\images\\projects\\1889f9d9-1974-42d0-b860-5cc2f6f4c687\\156f48c9-981a-4ffd-b245-2773866611f2.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8956"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ds1PobaNvI9GCuXgRwuQCfNsYQ7/NSuKplIF6oSfy58=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 13 Jun 2025 13:28:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ds1PobaNvI9GCuXgRwuQCfNsYQ7/NSuKplIF6oSfy58="
+        }
+      ]
+    },
+    {
+      "Route": "images/projects/3147ca31-a041-4f72-97d5-c9bce8eabc48/300cca4c-0703-47e5-a26d-7f51613e5c4e.jpeg",
+      "AssetFile": "C:\\Users\\myusu\\OneDrive\\Belgeler\\GitHub\\3KatmanDigital_Api\\3KatmanDigital_API\\3KatmanDigital_API\\wwwroot\\images\\projects\\3147ca31-a041-4f72-97d5-c9bce8eabc48\\300cca4c-0703-47e5-a26d-7f51613e5c4e.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6360"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Cp9mO4ZnxDIEJYfVfeguvnx2zm+QODG3XIl9lyrkeW8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 13 Jun 2025 13:30:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Cp9mO4ZnxDIEJYfVfeguvnx2zm+QODG3XIl9lyrkeW8="
+        }
+      ]
+    },
+    {
+      "Route": "images/projects/3147ca31-a041-4f72-97d5-c9bce8eabc48/300cca4c-0703-47e5-a26d-7f51613e5c4e.mhtr5vhju3.jpeg",
+      "AssetFile": "C:\\Users\\myusu\\OneDrive\\Belgeler\\GitHub\\3KatmanDigital_Api\\3KatmanDigital_API\\3KatmanDigital_API\\wwwroot\\images\\projects\\3147ca31-a041-4f72-97d5-c9bce8eabc48\\300cca4c-0703-47e5-a26d-7f51613e5c4e.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6360"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Cp9mO4ZnxDIEJYfVfeguvnx2zm+QODG3XIl9lyrkeW8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 13 Jun 2025 13:30:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mhtr5vhju3"
+        },
+        {
+          "Name": "label",
+          "Value": "images/projects/3147ca31-a041-4f72-97d5-c9bce8eabc48/300cca4c-0703-47e5-a26d-7f51613e5c4e.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Cp9mO4ZnxDIEJYfVfeguvnx2zm+QODG3XIl9lyrkeW8="
+        }
+      ]
+    },
+    {
+      "Route": "images/projects/4e8e5d7d-7713-469f-9b21-10220a3fdbb8/36628eba-ff07-4b16-b9cd-2738777bdc39.it1tvcbp74.jpeg",
+      "AssetFile": "C:\\Users\\myusu\\OneDrive\\Belgeler\\GitHub\\3KatmanDigital_Api\\3KatmanDigital_API\\3KatmanDigital_API\\wwwroot\\images\\projects\\4e8e5d7d-7713-469f-9b21-10220a3fdbb8\\36628eba-ff07-4b16-b9cd-2738777bdc39.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8956"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ds1PobaNvI9GCuXgRwuQCfNsYQ7/NSuKplIF6oSfy58=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 13 Jun 2025 13:31:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "it1tvcbp74"
+        },
+        {
+          "Name": "label",
+          "Value": "images/projects/4e8e5d7d-7713-469f-9b21-10220a3fdbb8/36628eba-ff07-4b16-b9cd-2738777bdc39.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ds1PobaNvI9GCuXgRwuQCfNsYQ7/NSuKplIF6oSfy58="
+        }
+      ]
+    },
+    {
+      "Route": "images/projects/4e8e5d7d-7713-469f-9b21-10220a3fdbb8/36628eba-ff07-4b16-b9cd-2738777bdc39.jpeg",
+      "AssetFile": "C:\\Users\\myusu\\OneDrive\\Belgeler\\GitHub\\3KatmanDigital_Api\\3KatmanDigital_API\\3KatmanDigital_API\\wwwroot\\images\\projects\\4e8e5d7d-7713-469f-9b21-10220a3fdbb8\\36628eba-ff07-4b16-b9cd-2738777bdc39.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8956"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ds1PobaNvI9GCuXgRwuQCfNsYQ7/NSuKplIF6oSfy58=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 13 Jun 2025 13:31:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ds1PobaNvI9GCuXgRwuQCfNsYQ7/NSuKplIF6oSfy58="
+        }
+      ]
+    },
+    {
+      "Route": "images/projects/4e8e5d7d-7713-469f-9b21-10220a3fdbb8/bd3036e5-ba64-4aba-ba60-5f40685e9c93.jpeg",
+      "AssetFile": "C:\\Users\\myusu\\OneDrive\\Belgeler\\GitHub\\3KatmanDigital_Api\\3KatmanDigital_API\\3KatmanDigital_API\\wwwroot\\images\\projects\\4e8e5d7d-7713-469f-9b21-10220a3fdbb8\\bd3036e5-ba64-4aba-ba60-5f40685e9c93.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6360"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Cp9mO4ZnxDIEJYfVfeguvnx2zm+QODG3XIl9lyrkeW8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 13 Jun 2025 13:31:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Cp9mO4ZnxDIEJYfVfeguvnx2zm+QODG3XIl9lyrkeW8="
+        }
+      ]
+    },
+    {
+      "Route": "images/projects/4e8e5d7d-7713-469f-9b21-10220a3fdbb8/bd3036e5-ba64-4aba-ba60-5f40685e9c93.mhtr5vhju3.jpeg",
+      "AssetFile": "C:\\Users\\myusu\\OneDrive\\Belgeler\\GitHub\\3KatmanDigital_Api\\3KatmanDigital_API\\3KatmanDigital_API\\wwwroot\\images\\projects\\4e8e5d7d-7713-469f-9b21-10220a3fdbb8\\bd3036e5-ba64-4aba-ba60-5f40685e9c93.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6360"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Cp9mO4ZnxDIEJYfVfeguvnx2zm+QODG3XIl9lyrkeW8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 13 Jun 2025 13:31:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mhtr5vhju3"
+        },
+        {
+          "Name": "label",
+          "Value": "images/projects/4e8e5d7d-7713-469f-9b21-10220a3fdbb8/bd3036e5-ba64-4aba-ba60-5f40685e9c93.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Cp9mO4ZnxDIEJYfVfeguvnx2zm+QODG3XIl9lyrkeW8="
+        }
+      ]
+    },
+    {
+      "Route": "images/projects/4e8e5d7d-7713-469f-9b21-10220a3fdbb8/f7a984fd-47aa-4b92-8ccd-d77acf9fbf01.62owp4ratr.png",
+      "AssetFile": "C:\\Users\\myusu\\OneDrive\\Belgeler\\GitHub\\3KatmanDigital_Api\\3KatmanDigital_API\\3KatmanDigital_API\\wwwroot\\images\\projects\\4e8e5d7d-7713-469f-9b21-10220a3fdbb8\\f7a984fd-47aa-4b92-8ccd-d77acf9fbf01.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4586926"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MkX/oP9Dms2pH/CrQ3h9zgDzZVAlbOzQrkC2P66/cN8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 13 Jun 2025 13:31:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "62owp4ratr"
+        },
+        {
+          "Name": "label",
+          "Value": "images/projects/4e8e5d7d-7713-469f-9b21-10220a3fdbb8/f7a984fd-47aa-4b92-8ccd-d77acf9fbf01.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-MkX/oP9Dms2pH/CrQ3h9zgDzZVAlbOzQrkC2P66/cN8="
+        }
+      ]
+    },
+    {
+      "Route": "images/projects/4e8e5d7d-7713-469f-9b21-10220a3fdbb8/f7a984fd-47aa-4b92-8ccd-d77acf9fbf01.png",
+      "AssetFile": "C:\\Users\\myusu\\OneDrive\\Belgeler\\GitHub\\3KatmanDigital_Api\\3KatmanDigital_API\\3KatmanDigital_API\\wwwroot\\images\\projects\\4e8e5d7d-7713-469f-9b21-10220a3fdbb8\\f7a984fd-47aa-4b92-8ccd-d77acf9fbf01.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4586926"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MkX/oP9Dms2pH/CrQ3h9zgDzZVAlbOzQrkC2P66/cN8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 13 Jun 2025 13:31:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-MkX/oP9Dms2pH/CrQ3h9zgDzZVAlbOzQrkC2P66/cN8="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/b85bf36c-6287-4ee5-aded-ddb0e99fa142_Nova.mf95kix2kv.png",
+      "AssetFile": "C:\\Users\\myusu\\OneDrive\\Belgeler\\GitHub\\3KatmanDigital_Api\\3KatmanDigital_API\\3KatmanDigital_API\\wwwroot\\uploads\\b85bf36c-6287-4ee5-aded-ddb0e99fa142_Nova.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "16837"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/pQegii8VHXj33EW+Umc2pajYatm3pfrL/02X6l5u1k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Jun 2025 12:12:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mf95kix2kv"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/b85bf36c-6287-4ee5-aded-ddb0e99fa142_Nova.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/pQegii8VHXj33EW+Umc2pajYatm3pfrL/02X6l5u1k="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/b85bf36c-6287-4ee5-aded-ddb0e99fa142_Nova.png",
+      "AssetFile": "C:\\Users\\myusu\\OneDrive\\Belgeler\\GitHub\\3KatmanDigital_Api\\3KatmanDigital_API\\3KatmanDigital_API\\wwwroot\\uploads\\b85bf36c-6287-4ee5-aded-ddb0e99fa142_Nova.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "16837"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/pQegii8VHXj33EW+Umc2pajYatm3pfrL/02X6l5u1k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Jun 2025 12:12:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/pQegii8VHXj33EW+Umc2pajYatm3pfrL/02X6l5u1k="
+        }
+      ]
+    }
+  ]
 }

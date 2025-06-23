@@ -4718,11 +4718,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\3katman_digital_mvc_project\\3KatmanDigital_API\\Entitiy\\Entitiy.csproj",
+      "projectUniqueName": "C:\\Users\\myusu\\OneDrive\\Belgeler\\GitHub\\3KatmanDigital_Api\\3KatmanDigital_API\\Entitiy\\Entitiy.csproj",
       "projectName": "Entitiy",
-      "projectPath": "D:\\3katman_digital_mvc_project\\3KatmanDigital_API\\Entitiy\\Entitiy.csproj",
+      "projectPath": "C:\\Users\\myusu\\OneDrive\\Belgeler\\GitHub\\3KatmanDigital_Api\\3KatmanDigital_API\\Entitiy\\Entitiy.csproj",
       "packagesPath": "C:\\Users\\myusu\\.nuget\\packages\\",
-      "outputPath": "D:\\3katman_digital_mvc_project\\3KatmanDigital_API\\Entitiy\\obj\\",
+      "outputPath": "C:\\Users\\myusu\\OneDrive\\Belgeler\\GitHub\\3KatmanDigital_Api\\3KatmanDigital_API\\Entitiy\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

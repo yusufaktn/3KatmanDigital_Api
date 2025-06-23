@@ -97,9 +97,24 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "project",
-        "Type": "Entitiy.Models.Project",
-        "IsRequired": true
+        "Name": "Title",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Description",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "CategoryID",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "Images",
+        "Type": "System.Collections.Generic.List\u00601[[Microsoft.AspNetCore.Http.IFormFile, Microsoft.AspNetCore.Http.Features, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
@@ -135,7 +150,7 @@
       },
       {
         "Name": "project",
-        "Type": "Entitiy.Models.Project",
+        "Type": "_3KatmanDigital_API.DTO.Project.UpdateProjectDto",
         "IsRequired": true
       }
     ],

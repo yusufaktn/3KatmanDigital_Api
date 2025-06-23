@@ -17,11 +17,18 @@ namespace _3KatmanDigital_API.Repository
 
 
 
-        public async Task AddAsync(T entity)
+        public async Task<T> AddAsync(T entity)
         {
             await  _dbSet.AddAsync(entity);
             await _context.SaveChangesAsync();
+            return entity;
 
+        }
+
+        public async Task AddRangeAsync(IEnumerable<T> entities)
+        {
+            await _dbSet.AddRangeAsync(entities);
+            await _context.SaveChangesAsync();
         }
 
         public async Task<bool> DeleteAsync(Guid id)

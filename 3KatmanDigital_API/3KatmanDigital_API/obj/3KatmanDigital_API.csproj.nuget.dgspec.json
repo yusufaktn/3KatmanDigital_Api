@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\3katman_digital_mvc_project\\3KatmanDigital_API\\3KatmanDigital_API\\3KatmanDigital_API.csproj": {}
+    "C:\\Users\\myusu\\OneDrive\\Belgeler\\GitHub\\3KatmanDigital_Api\\3KatmanDigital_API\\3KatmanDigital_API\\3KatmanDigital_API.csproj": {}
   },
   "projects": {
-    "D:\\3katman_digital_mvc_project\\3KatmanDigital_API\\3KatmanDigital_API\\3KatmanDigital_API.csproj": {
+    "C:\\Users\\myusu\\OneDrive\\Belgeler\\GitHub\\3KatmanDigital_Api\\3KatmanDigital_API\\3KatmanDigital_API\\3KatmanDigital_API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\3katman_digital_mvc_project\\3KatmanDigital_API\\3KatmanDigital_API\\3KatmanDigital_API.csproj",
+        "projectUniqueName": "C:\\Users\\myusu\\OneDrive\\Belgeler\\GitHub\\3KatmanDigital_Api\\3KatmanDigital_API\\3KatmanDigital_API\\3KatmanDigital_API.csproj",
         "projectName": "3KatmanDigital_API",
-        "projectPath": "D:\\3katman_digital_mvc_project\\3KatmanDigital_API\\3KatmanDigital_API\\3KatmanDigital_API.csproj",
+        "projectPath": "C:\\Users\\myusu\\OneDrive\\Belgeler\\GitHub\\3KatmanDigital_Api\\3KatmanDigital_API\\3KatmanDigital_API\\3KatmanDigital_API.csproj",
         "packagesPath": "C:\\Users\\myusu\\.nuget\\packages\\",
-        "outputPath": "D:\\3katman_digital_mvc_project\\3KatmanDigital_API\\3KatmanDigital_API\\obj\\",
+        "outputPath": "C:\\Users\\myusu\\OneDrive\\Belgeler\\GitHub\\3KatmanDigital_Api\\3KatmanDigital_API\\3KatmanDigital_API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\3katman_digital_mvc_project\\3KatmanDigital_API\\Entitiy\\Entitiy.csproj": {
-                "projectPath": "D:\\3katman_digital_mvc_project\\3KatmanDigital_API\\Entitiy\\Entitiy.csproj"
+              "C:\\Users\\myusu\\OneDrive\\Belgeler\\GitHub\\3KatmanDigital_Api\\3KatmanDigital_API\\Entitiy\\Entitiy.csproj": {
+                "projectPath": "C:\\Users\\myusu\\OneDrive\\Belgeler\\GitHub\\3KatmanDigital_Api\\3KatmanDigital_API\\Entitiy\\Entitiy.csproj"
               }
             }
           }
@@ -112,14 +112,14 @@
         }
       }
     },
-    "D:\\3katman_digital_mvc_project\\3KatmanDigital_API\\Entitiy\\Entitiy.csproj": {
+    "C:\\Users\\myusu\\OneDrive\\Belgeler\\GitHub\\3KatmanDigital_Api\\3KatmanDigital_API\\Entitiy\\Entitiy.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\3katman_digital_mvc_project\\3KatmanDigital_API\\Entitiy\\Entitiy.csproj",
+        "projectUniqueName": "C:\\Users\\myusu\\OneDrive\\Belgeler\\GitHub\\3KatmanDigital_Api\\3KatmanDigital_API\\Entitiy\\Entitiy.csproj",
         "projectName": "Entitiy",
-        "projectPath": "D:\\3katman_digital_mvc_project\\3KatmanDigital_API\\Entitiy\\Entitiy.csproj",
+        "projectPath": "C:\\Users\\myusu\\OneDrive\\Belgeler\\GitHub\\3KatmanDigital_Api\\3KatmanDigital_API\\Entitiy\\Entitiy.csproj",
         "packagesPath": "C:\\Users\\myusu\\.nuget\\packages\\",
-        "outputPath": "D:\\3katman_digital_mvc_project\\3KatmanDigital_API\\Entitiy\\obj\\",
+        "outputPath": "C:\\Users\\myusu\\OneDrive\\Belgeler\\GitHub\\3KatmanDigital_Api\\3KatmanDigital_API\\Entitiy\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,4 +1,5 @@
 ﻿using _3katman_digital_mvc.Models;
+using _3KatmanDigital_API.DTO.Project;
 using _3KatmanDigital_API.Services.Interface;
 using Entitiy.Models;
 using Microsoft.AspNetCore.Http;
@@ -51,27 +52,30 @@ namespace _3KatmanDigital_API.Controllers
                 return StatusCode(StatusCodes.Status500InternalServerError, "An error occurred while retrieving the project.");
             }
         }
+
         [HttpPost]
-        public async Task<IActionResult> AddProject([FromBody] Project project)
+        public async Task<IActionResult> AddProject([FromForm] CreateProjectDto createProjectDto)
         {
-            if (project == null)
+            if (createProjectDto == null)
             {
-                return BadRequest("Project cannot be null.");
+                return BadRequest("Project data is invalid.");
             }
             try
             {
-                var createdProject = await _projectService.AddProjectAsync(project);
-                return CreatedAtAction(nameof(GetProjectById), new { id = createdProject.ID }, createdProject);
+                var newProject = await _projectService.AddProjectAsync(createProjectDto);
+                return CreatedAtAction(nameof(GetProjectById), new { id = newProject.ID }, newProject);
             }
             catch (Exception ex)
             {
-                return StatusCode(StatusCodes.Status500InternalServerError, "An error occurred while creating the project.");
+                return StatusCode(StatusCodes.Status500InternalServerError, "An error occurred while adding the project.");
             }
+
         }
+
         [HttpPut("{id}")]
-        public async Task<IActionResult> UpdateProject(Guid id, [FromBody] Project project)
+        public async Task<IActionResult> UpdateProject(Guid id, [FromBody] UpdateProjectDto project)
         {
-            if (project == null || project.ID != id)
+            if (project == null || project.Id != id)
             {
                 return BadRequest("Project data is invalid.");
             }
@@ -89,6 +93,7 @@ namespace _3KatmanDigital_API.Controllers
                 return StatusCode(StatusCodes.Status500InternalServerError, "An error occurred while updating the project.");
             }
         }
+
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteProject(Guid id)
         {

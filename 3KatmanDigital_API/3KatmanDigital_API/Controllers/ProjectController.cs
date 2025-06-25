@@ -73,7 +73,7 @@ namespace _3KatmanDigital_API.Controllers
         }
 
         [HttpPut("{id}")]
-        public async Task<IActionResult> UpdateProject(Guid id, [FromBody] UpdateProjectDto project)
+        public async Task<IActionResult> UpdateProject(Guid id, [FromForm] UpdateProjectDto project)
         {
             if (project == null || project.Id != id)
             {

@@ -36,6 +36,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\projects\3147ca31-a041-4f72-97d5-c9bce8eabc48\300cca4c-0703-47e5-a26d-7f51613e5c4e.jpeg'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\projects\3fa85f64-5717-4562-b3fc-2c963f66afa6\00c37a20-556a-40be-a8ea-eec9045fd235.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>3KatmanDigital_API</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/3KatmanDigital_API</BasePath>
+      <RelativePath>images/projects/3fa85f64-5717-4562-b3fc-2c963f66afa6/00c37a20-556a-40be-a8ea-eec9045fd235.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>oqiefzq7d6</Fingerprint>
+      <Integrity>YJE/dwDmLlMrGANEdWRqrB98iMA3OWMg4+sfHxhUMI4=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\projects\3fa85f64-5717-4562-b3fc-2c963f66afa6\00c37a20-556a-40be-a8ea-eec9045fd235.png'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\projects\4e8e5d7d-7713-469f-9b21-10220a3fdbb8\36628eba-ff07-4b16-b9cd-2738777bdc39.jpeg'))">
       <SourceType>Package</SourceType>
       <SourceId>3KatmanDigital_API</SourceId>
@@ -89,6 +107,24 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\projects\4e8e5d7d-7713-469f-9b21-10220a3fdbb8\f7a984fd-47aa-4b92-8ccd-d77acf9fbf01.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\projects\baa45f1c-81aa-4f81-9efc-7e82b7a1d118\16ee1e66-91cc-40c6-a04f-848d7aa962c7.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>3KatmanDigital_API</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/3KatmanDigital_API</BasePath>
+      <RelativePath>images/projects/baa45f1c-81aa-4f81-9efc-7e82b7a1d118/16ee1e66-91cc-40c6-a04f-848d7aa962c7.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>62owp4ratr</Fingerprint>
+      <Integrity>MkX/oP9Dms2pH/CrQ3h9zgDzZVAlbOzQrkC2P66/cN8=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\projects\baa45f1c-81aa-4f81-9efc-7e82b7a1d118\16ee1e66-91cc-40c6-a04f-848d7aa962c7.png'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\b85bf36c-6287-4ee5-aded-ddb0e99fa142_Nova.png'))">
       <SourceType>Package</SourceType>

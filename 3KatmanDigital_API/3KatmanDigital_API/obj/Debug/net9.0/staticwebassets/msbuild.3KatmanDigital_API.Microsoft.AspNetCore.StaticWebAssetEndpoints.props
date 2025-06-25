@@ -24,6 +24,18 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"mhtr5vhju3"},{"Name":"integrity","Value":"sha256-Cp9mO4ZnxDIEJYfVfeguvnx2zm\u002BQODG3XIl9lyrkeW8="},{"Name":"label","Value":"_content/3KatmanDigital_API/images/projects/3147ca31-a041-4f72-97d5-c9bce8eabc48/300cca4c-0703-47e5-a26d-7f51613e5c4e.jpeg"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"6360"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022Cp9mO4ZnxDIEJYfVfeguvnx2zm\u002BQODG3XIl9lyrkeW8=\u0022"},{"Name":"Last-Modified","Value":"Fri, 13 Jun 2025 13:30:06 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/3KatmanDigital_API/images/projects/3fa85f64-5717-4562-b3fc-2c963f66afa6/00c37a20-556a-40be-a8ea-eec9045fd235.oqiefzq7d6.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\projects\3fa85f64-5717-4562-b3fc-2c963f66afa6\00c37a20-556a-40be-a8ea-eec9045fd235.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"oqiefzq7d6"},{"Name":"integrity","Value":"sha256-YJE/dwDmLlMrGANEdWRqrB98iMA3OWMg4\u002BsfHxhUMI4="},{"Name":"label","Value":"_content/3KatmanDigital_API/images/projects/3fa85f64-5717-4562-b3fc-2c963f66afa6/00c37a20-556a-40be-a8ea-eec9045fd235.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"4471331"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022YJE/dwDmLlMrGANEdWRqrB98iMA3OWMg4\u002BsfHxhUMI4=\u0022"},{"Name":"Last-Modified","Value":"Mon, 23 Jun 2025 16:08:41 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/3KatmanDigital_API/images/projects/3fa85f64-5717-4562-b3fc-2c963f66afa6/00c37a20-556a-40be-a8ea-eec9045fd235.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\projects\3fa85f64-5717-4562-b3fc-2c963f66afa6\00c37a20-556a-40be-a8ea-eec9045fd235.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-YJE/dwDmLlMrGANEdWRqrB98iMA3OWMg4\u002BsfHxhUMI4="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"4471331"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022YJE/dwDmLlMrGANEdWRqrB98iMA3OWMg4\u002BsfHxhUMI4=\u0022"},{"Name":"Last-Modified","Value":"Mon, 23 Jun 2025 16:08:41 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/3KatmanDigital_API/images/projects/4e8e5d7d-7713-469f-9b21-10220a3fdbb8/36628eba-ff07-4b16-b9cd-2738777bdc39.it1tvcbp74.jpeg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\projects\4e8e5d7d-7713-469f-9b21-10220a3fdbb8\36628eba-ff07-4b16-b9cd-2738777bdc39.jpeg'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
@@ -59,6 +71,18 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-MkX/oP9Dms2pH/CrQ3h9zgDzZVAlbOzQrkC2P66/cN8="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"4586926"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022MkX/oP9Dms2pH/CrQ3h9zgDzZVAlbOzQrkC2P66/cN8=\u0022"},{"Name":"Last-Modified","Value":"Fri, 13 Jun 2025 13:31:23 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/3KatmanDigital_API/images/projects/baa45f1c-81aa-4f81-9efc-7e82b7a1d118/16ee1e66-91cc-40c6-a04f-848d7aa962c7.62owp4ratr.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\projects\baa45f1c-81aa-4f81-9efc-7e82b7a1d118\16ee1e66-91cc-40c6-a04f-848d7aa962c7.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"62owp4ratr"},{"Name":"integrity","Value":"sha256-MkX/oP9Dms2pH/CrQ3h9zgDzZVAlbOzQrkC2P66/cN8="},{"Name":"label","Value":"_content/3KatmanDigital_API/images/projects/baa45f1c-81aa-4f81-9efc-7e82b7a1d118/16ee1e66-91cc-40c6-a04f-848d7aa962c7.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"4586926"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022MkX/oP9Dms2pH/CrQ3h9zgDzZVAlbOzQrkC2P66/cN8=\u0022"},{"Name":"Last-Modified","Value":"Mon, 23 Jun 2025 08:24:59 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/3KatmanDigital_API/images/projects/baa45f1c-81aa-4f81-9efc-7e82b7a1d118/16ee1e66-91cc-40c6-a04f-848d7aa962c7.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\projects\baa45f1c-81aa-4f81-9efc-7e82b7a1d118\16ee1e66-91cc-40c6-a04f-848d7aa962c7.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-MkX/oP9Dms2pH/CrQ3h9zgDzZVAlbOzQrkC2P66/cN8="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"4586926"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022MkX/oP9Dms2pH/CrQ3h9zgDzZVAlbOzQrkC2P66/cN8=\u0022"},{"Name":"Last-Modified","Value":"Mon, 23 Jun 2025 08:24:59 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/3KatmanDigital_API/uploads/b85bf36c-6287-4ee5-aded-ddb0e99fa142_Nova.mf95kix2kv.png">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\b85bf36c-6287-4ee5-aded-ddb0e99fa142_Nova.png'))</AssetFile>

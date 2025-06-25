@@ -4,6 +4,7 @@ using _3KatmanDigital_API.Repository.Interface;
 using _3KatmanDigital_API.Services.Interface;
 using Entitiy.Models;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Http.HttpResults;
 using static System.Net.Mime.MediaTypeNames;
 
 
@@ -24,14 +25,12 @@ namespace _3KatmanDigital_API.Services.Class_Service
 
         public async Task<ProjectDto> AddProjectAsync(CreateProjectDto project)
         {
-
             var newProject = new Project
             {
                 Title = project.Title,
                 Description = project.Description,
                 CategoryID = project.CategoryID,
             };
-
             await _projectRepo.AddAsync(newProject);
 
             if (project.Images != null && project.Images.Any())
@@ -79,17 +78,19 @@ namespace _3KatmanDigital_API.Services.Class_Service
 
         public async Task<List<ProjectDto>> GetAllProjectsAsync()
         {
-            var allproject = await _projectRepo.GetAllAsync();
+            var allproject = await _projectRepo.GetProjectWithImageAllAsync();
+
             return allproject.Select(p => new ProjectDto
             {
                 ID = p.ID,
                 Title = p.Title,
                 Description = p.Description,
                 CategoryID = p.CategoryID,
-                Images = p.Images.Select(i => new ProjectImageDto
+                Images = (p.Images?? new List<ProjectImages>()) .Select(i => new ProjectImageDto
                 {
                     ID = i.ID,
                     ImagePath = i.ImagePath,
+                    ProjectID = i.ProjectID
 
 
                 }).ToList()
@@ -99,14 +100,10 @@ namespace _3KatmanDigital_API.Services.Class_Service
         public async Task<ProjectDto> GetProjectByIdAsync(Guid id)
         {
             var getıd = await _projectRepo.GetProjectWithImageAsync(id);
-
-
             if (getıd == null)
             {
                  throw new Exception("Project not found.");
             }
-
-
 
             return new ProjectDto
             {
@@ -125,7 +122,7 @@ namespace _3KatmanDigital_API.Services.Class_Service
 
         public async Task<List<ProjectDto>> GetProjectsByCategoryIdAsync(Guid categoryId)
         {
-            var getprjectbycategory = await _projectRepo.GetWhereListAsync(p => p.CategoryID == categoryId);
+            var getprjectbycategory = await _projectRepo.GetProjectWithImageCategoryIDAsync(categoryId);
             return getprjectbycategory.Select(p => new ProjectDto
             {
                 ID = p.ID,
@@ -136,21 +133,45 @@ namespace _3KatmanDigital_API.Services.Class_Service
                 {
                     ID = i.ID,
                     ImagePath = i.ImagePath,
+                    ProjectID = i.ProjectID
                 }).ToList()
             }).ToList();
         }
+
 
 
         public async Task<ProjectDto> UpdateProjectAsync(UpdateProjectDto project)
         {
             var existingProject = await _projectRepo.GetProjectWithImageAsync(project.Id);
 
-           
+            if (existingProject == null)
+            {
+                throw new Exception("Proje bulunamadı.");
+            }
 
+            // Proje alanlarını yeni verilerle güncelleyin
+            existingProject.Title = project.Title;
+            existingProject.Description = project.Description;
+            existingProject.CategoryID = project.CategoryID;
+            existingProject.UpdatedTime = DateTime.Now;
+
+            // Resim güncelleme mantığı (isteğe bağlı, aşağıda açıklanmıştır)
             if (project.Images != null && project.Images.Any())
             {
+                // Mevcut resimleri silme (isteğe bağlı)
+                foreach (var image in existingProject.Images.ToList())
+                {
+                    var imagePath = Path.Combine(_env.WebRootPath, image.ImagePath);
+                    if (File.Exists(imagePath))
+                    {
+                        File.Delete(imagePath);
+                    }
+                    await _projectImageRepo.DeleteAsync(image.ID);
+                }
+
+                // Yeni resimleri ekleme
                 string projectFolder = Path.Combine(_env.WebRootPath, "images", "projects", existingProject.ID.ToString());
-                Directory.CreateDirectory(projectFolder); // Klasör yoksa oluştur
+                Directory.CreateDirectory(projectFolder);
 
                 foreach (var image in project.Images)
                 {
@@ -174,25 +195,10 @@ namespace _3KatmanDigital_API.Services.Class_Service
                 }
             }
 
+            await _projectRepo.UpdatePojectAsyncWithImage(existingProject);
 
-
-
-
-            await _projectRepo.UpdateAsync(existingProject);
-            return new ProjectDto
-            {
-                ID = existingProject.ID,
-                Title = existingProject.Title,
-                Description = existingProject.Description,
-                CategoryID = existingProject.CategoryID,
-                Images = existingProject.Images.Select(i => new ProjectImageDto
-                {
-                    ID = i.ID,
-                    ImagePath = i.ImagePath,
-                }).ToList()
-            };
-
-
+            var updatedDto = await GetProjectByIdAsync(existingProject.ID); // Güncellenmiş veriyi tekrar çek
+            return updatedDto;
         }
     }
 }

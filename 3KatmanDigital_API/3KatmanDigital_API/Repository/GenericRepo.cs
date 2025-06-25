@@ -48,6 +48,7 @@ namespace _3KatmanDigital_API.Repository
         public async Task<List<T>> GetAllAsync()
         {
             return await _dbSet.ToListAsync();
+            
         }
 
         public async Task<T> GetByIdAsync(Guid id)
